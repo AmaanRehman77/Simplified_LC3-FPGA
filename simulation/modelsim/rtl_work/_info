@@ -1,0 +1,672 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/simulation/modelsim
+vALU_Logic
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1679294918
+!i10b 1
+!s100 dFeeQ0UQ_8^J2^M3WRYZF3
+I0nB1ILU5V6:AFLh75MYU81
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_Logic_sv_unit
+S1
+R0
+w1677022433
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1679294918.000000
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023}
+Z8 tCvgOpt 0
+n@a@l@u_@logic
+vBus_Module
+R1
+Z9 !s110 1679294917
+!i10b 1
+!s100 T01FzbDP0bC@;JlSS`MbM2
+IBK?C_IN3fTjTlkhDX6RZ62
+R3
+!s105 Bus_Module_sv_unit
+S1
+R0
+w1676957684
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1679294917.000000
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv|
+!i113 1
+R6
+R7
+R8
+n@bus_@module
+vCC_Module
+R1
+R2
+!i10b 1
+!s100 GVWTF6Th<ob@PD:2UfHR]3
+I09b^QK>n4:gMN?_E8eeP91
+R3
+!s105 CC_Module_sv_unit
+S1
+R0
+w1677015684
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv|
+!i113 1
+R6
+R7
+R8
+n@c@c_@module
+vdatapath
+R1
+R2
+!i10b 1
+!s100 _I1<33:FeU]OaM2HKi[aD0
+ICJ[4BCEUUC9]TD4lTQUN43
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1677521867
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R9
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+I;7<d4_HcJ0]jez@oG^8li3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1612570584
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vISDU
+R1
+R9
+!i10b 1
+!s100 dk4Bf9g`4O7PT327G<fRN2
+IZm4^XcG;IQbI;_M<g?91R0
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1677385794
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv
+Z11 L0 19
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv|
+!i113 1
+R6
+R7
+R8
+n@i@s@d@u
+vMem2IO
+R1
+R9
+!i10b 1
+!s100 ]Q:NN9GIUgNPLn_MG6U5k1
+I<mlYWb`bd7ae@Y3JN3kKi3
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+Z12 w1675131358
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv
+L0 16
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv|
+!i113 1
+R6
+R7
+R8
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z13 DXx4 work 6 SLC3_2 0 22 8gK:z]O[ZHnIESWTjXBWL0
+V0bbSnU5T`:1Lkg`IHcZho3
+r1
+!s85 0
+31
+!i10b 1
+!s100 :0FBYob897RSc><Y^lI?F2
+I0bbSnU5T`:1Lkg`IHcZho3
+!i103 1
+S1
+R0
+Z14 w1674528052
+Z15 8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/memory_contents.sv
+Z16 FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/memory_contents.sv
+Z17 L0 17
+R4
+R5
+Z18 !s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/memory_contents.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/memory_contents.sv|
+!i113 1
+R6
+R7
+R8
+vmemory_parser
+R1
+R13
+DXx4 work 23 memory_contents_sv_unit 0 22 0bbSnU5T`:1Lkg`IHcZho3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 hfX5[fVi=fEbdX7KInPF?2
+I:1ODDI3<S8m8][bWQ01@82
+!s105 memory_contents_sv_unit
+S1
+R0
+R14
+R15
+R16
+R11
+R4
+R5
+R18
+R19
+!i113 1
+R6
+R7
+R8
+vmux_2_1_16
+R1
+R9
+!i10b 1
+!s100 <nbG^4OUY2kCc8:W=QHE^0
+IiBM4^MAF=RzU6WETDgfON3
+R3
+!s105 mux_2_1_16_sv_unit
+S1
+R0
+w1677022036
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv|
+!i113 1
+R6
+R7
+R8
+vmux_3_1_16
+R1
+R9
+!i10b 1
+!s100 C8lTAgaLnZc`zfcm`j=9Q3
+Ic3NYIzl0^mZE>8aU]EXLK3
+R3
+!s105 mux_3_1_16_sv_unit
+S1
+R0
+w1677003262
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv|
+!i113 1
+R6
+R7
+R8
+vmux_4_1_16
+R1
+R2
+!i10b 1
+!s100 @ENdRgRa99Cmmo^>zSQi=0
+Ia1Ua39R^^QiZVB@E=3YcD1
+R3
+!s105 mux_4_1_16_sv_unit
+S1
+R0
+w1677003877
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv|
+!i113 1
+R6
+R7
+R8
+vreg_file
+R1
+R2
+!i10b 1
+!s100 nO;j9bh:hcOiV_]iFLA:N2
+IAbkg]2ESbQQVH[:<g=^GZ1
+R3
+!s105 reg_file_sv_unit
+S1
+R0
+w1677040923
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv|
+!i113 1
+R6
+!s92 -sv -work work {+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files}
+R8
+vreg_unit
+R1
+R2
+!i10b 1
+!s100 n9Z5^Mb@BDiV3`nHDESGa1
+IfZbQJO<mGMV>TG1B;d;j=1
+R3
+!s105 reg_unit_sv_unit
+S1
+R0
+w1677021960
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv|
+!i113 1
+R6
+R7
+R8
+vSEXT_10
+R1
+R9
+!i10b 1
+!s100 kF2hZ3G;Pdb8hFa@:7E]Q3
+I67cedahJKBH1T]<:fQ@3J3
+R3
+Z20 !s105 SEXT_Modules_sv_unit
+S1
+R0
+Z21 w1677014213
+Z22 8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv
+Z23 FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R10
+Z24 !s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv|
+Z25 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv|
+!i113 1
+R6
+R7
+R8
+n@s@e@x@t_10
+vSEXT_4
+R1
+R9
+!i10b 1
+!s100 I_JK8BS9U8ALX54PYlNDF1
+I8eGVPRI`a2BR^FEa`7mD_3
+R3
+R20
+S1
+R0
+R21
+R22
+R23
+Z26 L0 24
+R4
+r1
+!s85 0
+31
+R10
+R24
+R25
+!i113 1
+R6
+R7
+R8
+n@s@e@x@t_4
+vSEXT_5
+R1
+R9
+!i10b 1
+!s100 nS_4JzFU@W8RdigJG`NeC1
+I0X@`IXfbkHC2T@_YkdZif1
+R3
+R20
+S1
+R0
+R21
+R22
+R23
+R17
+R4
+r1
+!s85 0
+31
+R10
+R24
+R25
+!i113 1
+R6
+R7
+R8
+n@s@e@x@t_5
+vSEXT_8
+R1
+R9
+!i10b 1
+!s100 ;L7@n36;[BINo4[T>3T=83
+Izk]5Vb<ZHkCm62kmVLgNb2
+R3
+R20
+S1
+R0
+R21
+R22
+R23
+L0 10
+R4
+r1
+!s85 0
+31
+R10
+R24
+R25
+!i113 1
+R6
+R7
+R8
+n@s@e@x@t_8
+vslc3
+R1
+R2
+!i10b 1
+!s100 MBjd<oVBWhOSmc;S9SjlB3
+I`AC>FQIjd@3C]n5LD;PlW3
+R3
+!s105 slc3_sv_unit
+S1
+R0
+w1677521871
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv
+L0 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv|
+!i113 1
+R6
+R7
+R8
+XSLC3_2
+R1
+R9
+!i10b 1
+!s100 Cz8_^@QRefP31?j=Zf>lj0
+I8gK:z]O[ZHnIESWTjXBWL0
+V8gK:z]O[ZHnIESWTjXBWL0
+S1
+R0
+R12
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv
+R26
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv|
+!i113 1
+R6
+R7
+R8
+n@s@l@c3_2
+vslc3_testtop
+R1
+R2
+!i10b 1
+!s100 ^4hhCjYV2aT;kkekDk8a71
+IOVNI?S7STdW`a;^UM@GbE0
+R3
+!s105 slc3_testtop_sv_unit
+S1
+R0
+R12
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_testtop.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_testtop.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_testtop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_testtop.sv|
+!i113 1
+R6
+R7
+R8
+vsync
+R1
+R9
+!i10b 1
+!s100 OHNUFN]797>kYzRL;ikZR2
+IBGUm[^2[aNLhVia[;2N;L1
+R3
+Z27 !s105 synchronizers_sv_unit
+S1
+R0
+R12
+Z28 8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv
+Z29 FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv
+L0 7
+R4
+r1
+!s85 0
+31
+R10
+Z30 !s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv|
+Z31 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv|
+!i113 1
+R6
+R7
+R8
+vsync_r0
+R1
+R9
+!i10b 1
+!s100 _Sn:CfHFjznVZen=7jc>C2
+I8lgcO24LGNgD^<EmlGlUO3
+R3
+R27
+S1
+R0
+R12
+R28
+R29
+L0 21
+R4
+r1
+!s85 0
+31
+R10
+R30
+R31
+!i113 1
+R6
+R7
+R8
+vsync_r1
+R1
+R9
+!i10b 1
+!s100 4jfZd?z`MK2Y<NLFC0<QH2
+I]AQekRM:97HL[[L:AhUc72
+R3
+R27
+S1
+R0
+R12
+R28
+R29
+L0 42
+R4
+r1
+!s85 0
+31
+R10
+R30
+R31
+!i113 1
+R6
+R7
+R8
+vtest_memory
+R1
+R9
+!i10b 1
+!s100 JAXhO?6GV:H>``me>_X5<1
+I5MAS1Cb]U`zD`z7?4DVBW1
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+R12
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/test_memory.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/test_memory.sv
+L0 26
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/test_memory.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench_W2
+R1
+R2
+!i10b 1
+!s100 FA59BK[YUeMOQN:;UTDP;1
+IV3JJT2Ba5n87=1IKK^P8Q0
+R3
+!s105 testbench_W2_sv_unit
+S1
+R0
+w1679294846
+8C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench_W2.sv
+FC:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench_W2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench_W2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023|C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench_W2.sv|
+!i113 1
+R6
+R7
+R8
+ntestbench_@w2

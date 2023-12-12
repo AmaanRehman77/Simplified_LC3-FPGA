@@ -1,0 +1,12 @@
+module CC_Module(input  logic Clk, Reset, LD_CC,
+					  input  logic [11:9] IR_Val,
+					  input  logic [15:0] Bus_Val,
+					  output logic BEN_Val);
+					  
+logic N, Z, P;
+logic N_New, Z_New, P_New;
+
+
+
+
+endmodule

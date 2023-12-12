@@ -1,0 +1,35 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ram.v}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023/output_files {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Instantiateram.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv}
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_sramtop.sv}
+
+vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+
+add wave *
+view structure
+view signals
+run 1000 ns

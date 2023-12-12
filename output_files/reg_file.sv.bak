@@ -1,0 +1,8 @@
+module reg_file(input logic Clk, LD_REG, Reset,
+					 input logic [2:0] SR1_In, SR2_In, DR_In,
+					 input logic [15:0] Bus_In,
+					 output logic [15:0] SR1OUT, SR2OUT);
+					 
+logic [15:0] reg_file [8];
+
+endmodule

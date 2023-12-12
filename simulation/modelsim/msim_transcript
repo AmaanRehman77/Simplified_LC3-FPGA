@@ -1,0 +1,264 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab5-testing_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/Bus_Module.sv 
+# -- Compiling module Bus_Module
+# 
+# Top level modules:
+# 	Bus_Module
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_3_1_16.sv 
+# -- Compiling module mux_3_1_16
+# 
+# Top level modules:
+# 	mux_3_1_16
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_2_1_16.sv 
+# -- Compiling module mux_2_1_16
+# 
+# Top level modules:
+# 	mux_2_1_16
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:37 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/SEXT_Modules.sv 
+# -- Compiling module SEXT_10
+# -- Compiling module SEXT_8
+# -- Compiling module SEXT_5
+# -- Compiling module SEXT_4
+# 
+# Top level modules:
+# 	SEXT_10
+# 	SEXT_8
+# 	SEXT_5
+# 	SEXT_4
+# End time: 01:48:37 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/mux_4_1_16.sv 
+# -- Compiling module mux_4_1_16
+# 
+# Top level modules:
+# 	mux_4_1_16
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/ALU_Logic.sv 
+# -- Compiling module ALU_Logic
+# 
+# Top level modules:
+# 	ALU_Logic
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/CC_Module.sv 
+# -- Compiling module CC_Module
+# 
+# Top level modules:
+# 	CC_Module
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/reg_unit.sv 
+# -- Compiling module reg_unit
+# 
+# Top level modules:
+# 	reg_unit
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023/output_files {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/output_files/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/amaan/Documents/ECE\ 385/Lab\ 5/Lab\ 5\ -\ Test/Lab5provided_sp2023 {C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench_W2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:48:38 on Mar 20,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023" C:/Users/amaan/Documents/ECE 385/Lab 5/Lab 5 - Test/Lab5provided_sp2023/testbench_W2.sv 
+# -- Compiling module testbench_W2
+# 
+# Top level modules:
+# 	testbench_W2
+# End time: 01:48:38 on Mar 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_W2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_W2 
+# Start time: 01:48:38 on Mar 20,2023
+# Loading sv_std.std
+# Loading work.testbench_W2
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.datapath
+# Loading work.Bus_Module
+# Loading work.reg_unit
+# Loading work.mux_3_1_16
+# Loading work.mux_2_1_16
+# Loading work.SEXT_10
+# Loading work.SEXT_8
+# Loading work.SEXT_5
+# Loading work.SEXT_4
+# Loading work.mux_4_1_16
+# Loading work.ALU_Logic
+# Loading work.reg_file
+# Loading work.CC_Module
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 6000 ns
+restart -f; run 320000ns
+# End time: 04:02:54 on Mar 20,2023, Elapsed time: 2:14:16
+# Errors: 0, Warnings: 0
